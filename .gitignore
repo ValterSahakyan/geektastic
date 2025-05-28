@@ -1,0 +1,35 @@
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore Composer lock file
+/composer.lock
+
+# Ignore PHPUnit result cache
+.phpunit.result.cache
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore log files
+*.log
+
+# Ignore system generated files
+*.bak
+*.tmp
+
+# Ignore backup files
+*~
+
+# Ignore PHP-specific files
+*.coverage
+*.phpunit.xml
+
+# Ignore custom build or temporary files
+/build/
