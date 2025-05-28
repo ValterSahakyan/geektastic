@@ -1,0 +1,24 @@
+{
+  "name": "geektastic/phpmpwgg",
+  "description": "A multiplayer word guessing game",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=8.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit tests"
+  }
+}
